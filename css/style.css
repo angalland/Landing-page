@@ -287,6 +287,21 @@ main {
 
 /* -------------------- Main 3 ----------------------- */
 
+.articleContenair3 {
+    display: flex;
+    gap : none;
+}
+
+.hArticleHeader3 {
+    text-align: center;
+    margin: 0;
+}
+
+.pArticleHeader3 {
+    text-align: center;
+    margin: 0;
+}
+
 img {
     width: 100px;
     height: 100px;
