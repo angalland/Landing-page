@@ -56,10 +56,21 @@ i {
     margin: 10px;
 }
 
+i:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
 a {
     color: white;
     padding: 10px;
     text-decoration: none;
+    font-size: 20px;
+    
+}
+
+a:hover {
+    opacity: 0.8;
+    
 }
 
 /* ---------------------- Article ----------------------*/
@@ -121,8 +132,11 @@ input {
     border: none;
 }
 
-.input[placeholder] {
-    margin-left: 10px;
+::placeholder {
+    padding: 10px;
+    color : black;
+    font-size: 20px;
+    opacity: 0.5;
 }
 
 
@@ -136,9 +150,11 @@ button {
     top: 9px;
     right: 20px;
     border: none;
-    
-  
+}
 
+button:hover{
+    opacity: 0.8;
+    cursor: pointer;
 }
 
 object {
