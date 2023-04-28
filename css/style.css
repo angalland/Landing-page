@@ -181,6 +181,8 @@ object {
     height: 100vh;
 }
 
+/* ------------------- header 2 ----------------------- */
+
 .headerContenair2 {
     display: flex;
     flex-direction: column;
@@ -198,6 +200,8 @@ h2 {
     text-align: center;
     color: grey
 }
+
+/* -------------------- main 2 ------------------------ */
 
 main {
     display: flex;
@@ -251,3 +255,39 @@ main {
     align-items: center;
 }
 
+/* ------------------------Contenair 3 ---------------- */
+
+.contenair3 {
+    width: 100%;
+    height: 100vh; 
+}
+
+/* -------------------- header 3 -------------------- */
+
+.headerContenair3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 30%;
+}
+
+.h2HeaderContenair3 {
+    font-size: 2em;
+    font-weight: 1000; 
+    text-align: center;
+
+}
+
+.pHeaderContenair3{
+    font-size: 20px;
+    width: 100%;
+    text-align: center;
+    color: grey
+}
+
+/* -------------------- Main 3 ----------------------- */
+
+img {
+    width: 100px;
+    height: 100px;
+}
