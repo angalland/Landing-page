@@ -97,7 +97,7 @@ article {
 
 }
 
-h1 {
+.titreContenair1 {
     /* grid-column: 1/1;
     grid-row: 1/1; */
     font-size: 4em;
@@ -107,7 +107,7 @@ h1 {
     padding: auto;
 }
 
-p {
+.pContenair1 {
     /* grid-column: 1/1;
     grid-row: 2/2; */
     /* border: 5px solid black; */
@@ -181,6 +181,54 @@ object {
     height: 100vh;
 }
 
-.card {
-    background-color: rgb(139, 195, 245);
+.headerContenair2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
+
+h2 {
+    font-size: 2em;
+    font-weight: 1000; 
+}
+
+.pHeaderContenair2{
+    font-size: 25px;
+    width: 40%;
+    text-align: center;
+    color: grey
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap : 15px;
+    width: 100%;
+    margin-top: 5%;
+
+}
+
+.card {
+    background: radial-gradient(rgb(139, 195, 245), #1294b8);
+    width: 500px;
+    border-radius: 10px;
+    height: 500px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+  
+
+}
+
+.cardContenair2{
+    color: white;
+}
+
+.pContenair2 {
+    color: white;
+}
+
+
