@@ -118,7 +118,13 @@ input {
     height: 50px;
     width: 100%;
     border-radius: 30px;
+    border: none;
 }
+
+.input[placeholder] {
+    margin-left: 10px;
+}
+
 
 button {
     background-color: #1294b8;
@@ -129,6 +135,7 @@ button {
     position: absolute;
     top: 9px;
     right: 20px;
+    border: none;
     
   
 
