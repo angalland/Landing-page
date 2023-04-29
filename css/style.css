@@ -320,18 +320,27 @@ main {
 
 figure{
     margin: 0;
+    border-radius: 100%;
+    overflow: hidden;
 }
 
 img {
     width: 100%;
-    height: 100%;
-    border-radius: 100%;
+    height: 85%;
     
+    filter: grayscale(1);
+    transition: transform .3s;
+}
+
+img:hover{
+    filter: grayscale(0);
+    transform: scale(1.25);
 }
 
 .h3Contenair3 {
     text-align: center;
     margin: 0;
+    margin-top: 5px;
 }
 
 .pFigcaptionContenair3 {
