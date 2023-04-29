@@ -354,9 +354,9 @@ img:hover{
 }
 
 .iconeContenair3{
-    display: inline;
-    /* display: flex;
-    flex-direction: column; */
+
+    display: flex;
+    flex-direction: column;
 
     /* display: none; */
     position: relative;
@@ -367,7 +367,7 @@ img:hover{
 }
 
 img:hover + .iconeContenair3{
-    display: inline;
+
     bottom: 100px;
 
 }
