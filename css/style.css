@@ -492,7 +492,9 @@ main {
     display: flex;
     align-items: center;
     position: absolute;
-    top: 0;
+    flex-wrap: wrap;
+    top: 25px;
+    left: 10px;
     margin: 0;
     color: white;
     width: 100%;
@@ -500,8 +502,22 @@ main {
     transition: 1s;
 }
 
+.iPhotographe {
+    width: 90%;
+    margin: 0;
+}
+
+i {
+    margin: 0;
+    margin: 5px 5px;
+}
+
+.pPhotographe {
+    margin: 0;
+}
+
 .figureBlog:hover .imgBlog {
-    filter: brightness(50%);
+    filter: brightness(60%);
 }
 
 .figureBlog:hover .photographe {
