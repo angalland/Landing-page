@@ -295,7 +295,7 @@ main {
     justify-content: space-between;
     gap : none;
     width: 100%;
-    margin-top: 10%;
+    margin-top: 7%;
 }
 
 .article3 {
@@ -334,7 +334,7 @@ img {
     transition: transform .3s; 
 }
 
-img:hover{
+figure:hover img {
     filter: grayscale(0);
     transform: scale(1.25);
 }
@@ -358,12 +358,12 @@ img:hover{
     position: absolute;
     bottom: 400px;
     left: 0px;
-    transition: 3s;
+    transition: 2s;
     opacity: 0;
     
 }
 
-img:hover + .iconeContenair3{
+figure:hover .iconeContenair3{
     opacity: 1;
     bottom: 100px;
     left: 20px;
