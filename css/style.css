@@ -118,7 +118,7 @@ article {
    margin : 15px;
 }
 
-form {
+.formContenair1 {
     /* grid-column: 1/1;
     grid-row: 3/3; */
     /* border: 5px solid black; */
@@ -148,7 +148,7 @@ input[type="email"]:focus{
 
 
 
-button {
+.buttonContenair1 {
     background-color: #1294b8;
     height: 30px;
     width: 120px;
@@ -160,7 +160,7 @@ button {
     border: none;
 }
 
-button:hover{
+.buttonContenair1:hover{
     opacity: 0.8;
     cursor: pointer;
 }
@@ -282,7 +282,7 @@ main {
 }
 
 .pHeaderContenair3{
-    font-size: 20px;
+    font-size: 25px;
     width: 100%;
     text-align: center;
     color: grey
@@ -319,7 +319,7 @@ main {
   
 }
 
-figure{
+.figureContenair3 {
     margin: 0;
     border-radius: 100%;
     overflow: hidden;
@@ -327,14 +327,14 @@ figure{
 
 } 
 
-img {
+.imgContenair3 {
     width: 100%;
     height: 100%;
     filter: grayscale(1);
     transition: transform .3s; 
 }
 
-figure:hover img {
+.figureContenair3:hover .imgContenair3 {
     filter: grayscale(0);
     transform: scale(1.25);
 }
@@ -363,9 +363,55 @@ figure:hover img {
     
 }
 
-figure:hover .iconeContenair3{
+.figureContenair3:hover .iconeContenair3{
     opacity: 1;
     bottom: 100px;
     left: 20px;
+
+}
+
+/* ----------------------- Contenair 4------------------ */
+
+.contenair4 {
+    width: 100%;
+    height: 50vh;
+    padding: 0 9%;
+}
+
+.figureContenair4{
+    width: 100%;
+    height: 50vh;
+}
+
+.imgContenair4 {
+    width: 100%;
+    height: 50vh;
+}
+
+.articleContenair4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%; 
+}
+
+.hContenair4 {
+    font-size: 2em;
+    font-weight: 1000;
+}
+
+.pContenair4 {
+    font-size: 25px;
+    text-align: center;
+}
+
+.buttonContenair4 {
+    width: 200px;
+    height: 50px;
+    color: white;
+    border: solid white ;
+    border-radius: 5px;
+    font-size: 25px;
 
 }
