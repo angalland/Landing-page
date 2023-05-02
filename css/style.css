@@ -3,6 +3,24 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "poppins";
+    position: relative;
+}
+
+#fleche {
+    position: fixed;
+    right: 20px;
+    top:850px;
+    background-color: black;
+    color: white;
+    width: 75px;
+    height: 75px;
+    border-radius: 100%;
+    z-index: 1;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 
 /* ------------------ section 1 ---------------------*/
