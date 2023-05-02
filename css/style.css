@@ -1,5 +1,5 @@
 * {
-    margin = 0;
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: "poppins";
@@ -133,19 +133,19 @@ input {
 
 input[type="email"]:focus{ /* Selectionne l'input ayant pour attribut type="email" lorsque celui ci est selectionné au clavier */
     font-size: 20px;
-    border: none;
+    border: 0;
     padding: 10px;
 }
 
 .buttonContenair1 {
     background-color: #1294b8;
-    height: 30px;
-    width: 120px;
+    height: 40px;
+    width: 140px;
     border-radius: 30px;
     color: white;
     position: absolute; /* Positionne le button hors du flux */
-    top: 9px;
-    right: 20px;
+    top: 5px;
+    right: 5px;
     border: none;
 }
 
@@ -592,7 +592,6 @@ strong {
 
 .imgContenair5 {
     width: 50%;
-    height: 450px;
 }
 
 /* ---------------------- PRICING ----------------------------- */
