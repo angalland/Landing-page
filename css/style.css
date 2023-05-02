@@ -655,14 +655,32 @@ strong {
     border: solid white 1px;
     border-radius: 5px;
     background-color: white;
+    gap: 0;
+    padding: 0;
 }
 
 .h4Pricing{
     width: 100%;
+    text-align: center;
 }
 
 .pPricing {
     width: 100%;
+    text-align: center;
 }
 
+#iPricing {
+    width: 5%;
+    margin: 0;
+    text-align: center;
+}
+
+.pArticlePricing {
+    width: 55%
+}
+
+.p2ArticlePricing {
+    width: 40%;
+    text-align: right;
+}
 
