@@ -348,9 +348,10 @@ main {
 
 .figureContenair3:hover .iconeContenair3{
     opacity: 1;
-    bottom: 100px;
-    left: 20px;
+    bottom: 80px;
+    left: 10px;
 }
+
 
 /* ----------------------- Seccion 4------------------ */
 
@@ -526,6 +527,10 @@ main {
 .aArticleBlog {
     color:#1294b8;
     padding: 0;
+}
+
+.aArticleBlog {
+    cursor: pointer;
 }
 
 /* ------------------------------------- Contenair 5 ------------------------------ */
