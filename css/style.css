@@ -6,7 +6,7 @@
 }
 
 /* ------------------ section 1 ---------------------*/
-.contenair1 {
+#contenair1 {
     background: radial-gradient(rgb(139, 195, 245), #1294b8);
     width: 100%;
     height: 100vh;
@@ -177,7 +177,7 @@ object {
 
 /* ------------------ section 2 --------------------*/
 
-.contenair2 {
+#contenair2 {
     width: 100%;
     height: 100vh;
     padding: 0 9%;
@@ -259,7 +259,7 @@ main {
 
 /* ------------------------Contenair 3 ---------------- */
 
-.contenair3 {
+#contenair3 {
     width: 100%;
     height: 100vh;
     padding: 0 9%;
@@ -373,7 +373,7 @@ main {
 
 /* ----------------------- Contenair 4------------------ */
 
-.contenair4 {
+#contenair4 {
     width: 100%;
     height: 50vh;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url("../img/parallax.png");  
@@ -440,7 +440,7 @@ main {
 }
 
 /* ------------------------Blog ----------------------- */
-.blogContenair{
+#blogContenair{
     width: 100%;
     height: 100vh;
     padding: 0 9%;
@@ -548,7 +548,7 @@ i {
 
 /* ------------------------------------- Contenair 5 ------------------------------ */
 
-.contenair5{
+#contenair5{
     width: 100%;
     height: 50vh;
     display: flex;
@@ -612,7 +612,7 @@ strong {
 
 /* ---------------------- PRICING----------------------------- */
 
-.pricing {
+#pricing {
     width: 100%;
     height: 100vh;
     padding: 0 9%;
