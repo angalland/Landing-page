@@ -654,8 +654,7 @@ strong {
     align-items: center;
     width: 25%;
     height: 100%;
-    border: solid white 1px;
-    border-radius: 5px;
+    border-radius: 15px;
     background-color: white;
     gap: 0;
     padding: 0;
@@ -663,12 +662,35 @@ strong {
     padding-left: 30px;
     padding-right: 30px;
     position: relative;
+    transition: 0.5s;
+}
+
+.articlePricing:hover, .article2Pricing:hover {
+    transform: translateY(-15px);
+    cursor: pointer;
 }
 
 .article2Pricing {
     position: relative;
     top: -20px;
 
+}
+
+.divArticlePricing {
+    position: absolute;
+    top:0;
+    right: 0;
+    background-color: hsl(223, 82%, 59%);
+    height: 50px;
+    width: 50px;
+    border-radius: 0 15px 0 15px;
+    color: white;
+    text-align: center;
+    border: solid hsl(223, 82%, 59%) 1;
+    font-size: 15px;
+    margin: 0;
+    padding-top: 5px;
+    filter: brightness(90%);
 }
 
 .h4Pricing{
@@ -737,5 +759,11 @@ strong {
     border: none;
     border-radius: 5px;
     font-size: 20px;
+    transition: 0.5s;
+}
+
+.buttonArticlePricing:hover {
+    transform: translateY(-10px);
+    cursor: pointer;
 }
 
