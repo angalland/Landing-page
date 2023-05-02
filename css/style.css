@@ -643,9 +643,11 @@ strong {
     flex-direction: row;
     justify-content: center;
     width: 100%;
+    margin: 0;
+    position: relative;
 }
 
-.articlePricing {
+.articlePricing, .article2Pricing {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -660,6 +662,13 @@ strong {
     box-shadow:rgba(0, 0, 0, 0.35) 0px 5px 15px ;
     padding-left: 30px;
     padding-right: 30px;
+    position: relative;
+}
+
+.article2Pricing {
+    position: relative;
+    top: -20px;
+
 }
 
 .h4Pricing{
@@ -669,6 +678,7 @@ strong {
     font-size: 20px;
     height: 30px;
     margin: 0;
+    margin-top: 10px;
 }
 
 .pPricing {
@@ -701,7 +711,7 @@ strong {
     width: 50%;
     /* padding-left: 10px; */
     font-size: 20px;
-    font-weight: 100;
+    font-weight: 500;
 }
 
 .p2ArticlePricing {
@@ -709,7 +719,7 @@ strong {
     text-align: right;
     /* padding-right: 10px; */
     font-size: 20px;
-    font-weight: 100;
+    font-weight: normal;
 }
 
 .formArticlePricing {
