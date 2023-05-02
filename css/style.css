@@ -610,6 +610,59 @@ strong {
     height: 450px;
 }
 
-/*  */
+/* ---------------------- PRICING----------------------------- */
+
+.pricing {
+    width: 100%;
+    height: 100vh;
+    padding: 0 9%;
+    background-color: #EAE7E6;
+}
+
+/* ---------------------Header Pricing ------------------------- */
+
+#headerPricing {
+    text-align: center;
+    padding: 10% 20% 5% 20%;
+}
+
+#h2HeaderPricing {
+    font-size: 2em;
+    margin: 0;
+}
+
+#pHeaderPricing {
+    font-size: 25px;
+    color: grey;
+}
+
+/* ------------------ main Pricing --------------------------- */
+
+.mainPricing {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.articlePricing {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    height: 50%;
+    border: solid white 1px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.h4Pricing{
+    width: 100%;
+}
+
+.pPricing {
+    width: 100%;
+}
 
 
