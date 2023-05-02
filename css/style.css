@@ -9,15 +9,15 @@
 /* ------------------- Seccion fleche ancre */
 
 #fleche {
-    position: fixed;
-    right: 20px;
+    position: fixed;    /* Fixe la div sur l'image */
+    right: 20px;        /* Position de la div sur l'ecran */
     top:850px;
     background-color: black;
     color: white;
     width: 75px;
     height: 75px;
     border-radius: 100%;
-    z-index: 1;
+    z-index: 1;         /* Apparait au dessus des autres éléments */
     text-align: center;
     display: flex;
     justify-content: center;
@@ -26,9 +26,9 @@
 
 /* ------------------ section 1 ---------------------*/
 #contenair1 {
-    background: radial-gradient(rgb(139, 195, 245), #1294b8);
+    background: radial-gradient(rgb(139, 195, 245), #1294b8); /* Fait un dégradé de couleur sur le fond */
     width: 100%;
-    height: 100vh;
+    height: 100vh;  /* prend la taille d'un ecran */
     display: flex;
     flex-direction: column;
     padding: 0 2%; 
@@ -40,7 +40,6 @@
     width: 100%;
     display: flex;
     margin-top: 20px;
-    /* margin-bottom: 10px; */
 }
 
 .entete {
@@ -72,22 +71,22 @@ i {
 }
 
 i:hover {
-    opacity: 0.8;
-    cursor: pointer;
+    opacity: 0.8;  /* Au survol des icones leur opacité baissera de 20% */
+    cursor: pointer;  /* Au survol des icones, la souris prendra une forme de poingteur */
 }
 
 a {
     color: white;
     padding: 10px;
-    text-decoration: none;
+    text-decoration: none; /* Supprime la barre dessous les liens */
     font-size: 20px;
 }
 
 a:hover {
-    opacity: 0.8;    
+    opacity: 0.8;  /* au survol des liens, leur opacités baissera de 20% */  
 }
 
-/* ---------------------- Article ----------------------*/
+/* ---------------------- Article Seccion 1----------------------*/
 
 article {
     width: 100%;
@@ -96,7 +95,7 @@ article {
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 10px;
+    gap: 10px;      /* Fait un "espace" de 10px entre chaque bloc du display */
     padding: 0 9%;
 }
 
@@ -111,29 +110,28 @@ article {
     margin: 0;
     font-size: 1.5em;
     width: 30%;
-   margin : 15px;
+    margin : 15px;
 }
 
 .formContenair1 {
     width: 30%;
-    position:relative;
 }
 
 input {
     height: 50px;
     width: 100%;
     border-radius: 30px;
-    border: none;
+    border: none; /* Supprime la bordure de input */
 }
 
-::placeholder {
+::placeholder {     /* Selectionne l'attribut placeholder */
     padding: 10px;
     color : black;
     font-size: 20px;
     opacity: 0.5;
 }
 
-input[type="email"]:focus{
+input[type="email"]:focus{ /* Selectionne l'input ayant pour attribut type="email" lorsque celui ci est selectionné au clavier */
     font-size: 20px;
     border: none;
     padding: 10px;
@@ -145,7 +143,7 @@ input[type="email"]:focus{
     width: 120px;
     border-radius: 30px;
     color: white;
-    position: absolute;
+    position: absolute; /* Positionne le button hors du flux */
     top: 9px;
     right: 20px;
     border: none;
@@ -170,7 +168,7 @@ object {
     padding: 0 9%;
 }
 
-/* ------------------- header 2 ----------------------- */
+/* ------------------- header Seccion 2 ----------------------- */
 
 .headerContenair2 {
     display: flex;
@@ -190,7 +188,7 @@ h2 {
     color: grey
 }
 
-/* -------------------- main 2 ------------------------ */
+/* -------------------- main Seccion 2 ------------------------ */
 
 main {
     display: flex;
@@ -207,18 +205,18 @@ main {
     width: 450px;
     border-radius: 10px;
     height: 350px;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;   /* fait un effet d'ombre sur .card */
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;   
     font-size: 20px;
     padding: 10px;
-    transition: 0.5s;
+    transition: 0.5s; /* dit la duree pour les effets de changement */
 }
 
 .card:hover {
-    transform: translateY(-15px);
+    transform: translateY(-15px); /* fait un mouvement sur l'axe des y de -15px (monte vers le haut) */
 }
 
 .fa-solid {
@@ -226,8 +224,8 @@ main {
 }
 
 .fa-solid:hover {
-    cursor: auto;
-    opacity: 1;
+    cursor: auto; /* le curseur de la souris reste normale */
+    opacity: 1;   /* l'opacité reste la même */
 }
 
 .cardContenair2{
@@ -245,7 +243,7 @@ main {
     align-items: center;
 }
 
-/* ------------------------Contenair 3 ---------------- */
+/* ------------------------Seccion 3 ---------------- */
 
 #contenair3 {
     width: 100%;
@@ -253,7 +251,7 @@ main {
     padding: 0 9%;
 }
 
-/* -------------------- header 3 -------------------- */
+/* -------------------- header seccion 3 -------------------- */
 
 .headerContenair3 {
     display: flex;
@@ -275,7 +273,7 @@ main {
     color: grey
 }
 
-/* -------------------- Main 3 ----------------------- */
+/* -------------------- Main seccion 3 ----------------------- */
 
 .articleContenair3 {
     display: flex;
@@ -307,21 +305,21 @@ main {
 .figureContenair3 {
     margin: 0;
     border-radius: 100%;
-    overflow: hidden;
-    position: relative;
+    overflow: hidden;  /* cache tous ce sort de la figure */
+    position: relative; /* Position par défaut dans le flux de la balise */
 } 
 
 .imgContenair3 {
     width: 100%;
     height: 100%;
-    filter: grayscale(1);
+    filter: grayscale(1); /* assombrit l'image */
     transition: transform .3s; 
 }
 
 .figureContenair3:hover .imgContenair3 {
-    filter: grayscale(0);
-    transform: scale(1.25);
-    cursor: pointer;
+    filter: grayscale(0); /* n'assombrit plus l'image */
+    transform: scale(1.25); /* fait un effet de zoom */
+    cursor: pointer; /* le curseur de la souris prendra la forme d'un pointeur */
 }
 
 .h3Contenair3 {
@@ -339,7 +337,7 @@ main {
 .iconeContenair3{
     display: flex;
     flex-direction: column;
-    position: absolute;
+    position: absolute; 
     bottom: 400px;
     left: 0px;
     transition: 2s;
@@ -348,21 +346,21 @@ main {
 
 .figureContenair3:hover .iconeContenair3{
     opacity: 1;
-    bottom: 80px;
+    bottom: 80px;  /* Modifie la position des icones au survol de la souris */
     left: 10px;
 }
 
 
-/* ----------------------- Seccion 4------------------ */
+/* ----------------------- Seccion 4 ------------------ */
 
 #contenair4 {
     width: 100%;
     height: 50vh;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url("../img/parallax.png");  
-    background-attachment: fixed;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat; 
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url("../img/parallax.png"); /* assombrit l'arriere plan, ajoute une image en arrière plan */  
+    background-attachment: fixed; /* La position de l'image est fixe lors du srcoll */
+    background-size: cover; /* l'image prend l'espace disponible */
+    background-position: center; /* l'image est centré */
+    background-repeat: no-repeat; /* l'image ne se repette pas */
 }
 
 
@@ -396,7 +394,7 @@ main {
     color: white;
     border: none;
     font-size: 25px;
-    background-color: transparent;
+    background-color: transparent; /* l'arriere plan sera transparent (prendra l'arriere plan de la balise mère) */
     transition: 0.5s;
 }
 
@@ -415,7 +413,7 @@ main {
     color:black;
     background-color: white;
     height: 50px;
-    transform: translateY(-5px);
+    transform: translateY(-5px); /* Mouvement sur l'axe des Y de 5px (mouvement vers le haut) */
     cursor: pointer;
 }
 
@@ -473,9 +471,9 @@ main {
 .photographe {
     display: flex;
     align-items: center;
-    position: absolute;
     flex-wrap: wrap;
-    top: 25px;
+    position: absolute; /* Sors du flux */
+    top: 25px; /* Position dans le flux par rapport a sa balise mère */
     left: 10px;
     margin: 0;
     color: white;
@@ -504,7 +502,7 @@ main {
 }
 
 .figureBlog:hover .imgBlog {
-    filter: brightness(60%);
+    filter: brightness(60%); /* Assombrit l'image */
     cursor: pointer;
 }
 
@@ -533,7 +531,7 @@ main {
     cursor: pointer;
 }
 
-/* ------------------------------------- Contenair 5 ------------------------------ */
+/* ------------------------------------- Seccion 5 ------------------------------ */
 
 #contenair5{
     width: 100%;
@@ -597,7 +595,7 @@ strong {
     height: 450px;
 }
 
-/* ---------------------- PRICING----------------------------- */
+/* ---------------------- PRICING ----------------------------- */
 
 #pricing {
     width: 100%;
@@ -659,14 +657,14 @@ strong {
 
 .article2Pricing {
     position: relative;
-    top: -20px;
+    top: -20px; /* positionne l'article 2 20px vers le haut */
 }
 
 .divArticlePricing {
-    position: absolute;
+    position: absolute; /* sort du flux la div */
     top:0;
     right: 0;
-    background-color: hsl(223, 82%, 59%);
+    background-color:hsl(223, 82%, 59%);
     height: 50px;
     width: 50px;
     border-radius: 0 15px 0 15px;
@@ -676,7 +674,9 @@ strong {
     font-size: 15px;
     margin: 0;
     padding-top: 5px;
-    filter: brightness(90%);
+    filter: brightness(90%); /* assombrit la div */
+    display: flex;
+    align-items: center;
 }
 
 .h4Pricing{
