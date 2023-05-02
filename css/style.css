@@ -337,6 +337,7 @@ main {
 .figureContenair3:hover .imgContenair3 {
     filter: grayscale(0);
     transform: scale(1.25);
+    cursor: pointer;
 }
 
 .h3Contenair3 {
@@ -434,6 +435,8 @@ main {
     background-color: white;
     height: 50px;
     transform: translateY(-5px);
+    cursor: pointer;
+
 }
 
 /* ------------------------Blog ----------------------- */
@@ -518,6 +521,7 @@ i {
 
 .figureBlog:hover .imgBlog {
     filter: brightness(60%);
+    cursor: pointer;
 }
 
 .figureBlog:hover .photographe {
@@ -550,6 +554,7 @@ i {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    gap: 10px;
     padding: 0 9%;
 }
 
@@ -584,6 +589,21 @@ strong {
     color: black;
 }
 
+.buttonContenair5 {
+    width: 200px;
+    height: 50px;
+    background-color: hsl(223, 82%, 59%);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+    transition: 0.5s;
+}
+
+.buttonContenair5:hover{
+    cursor: pointer;
+    transform: translateY(-5px);
+}
 
 .imgContenair5 {
     width: 50%;
