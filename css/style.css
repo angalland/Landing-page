@@ -11,7 +11,7 @@
 #fleche {
     position: fixed;    /* Fixe la div sur l'image */
     right: 20px;        /* Position de la div sur l'ecran */
-    top:850px;
+    top:800px;
     background-color: black;
     color: white;
     width: 75px;
@@ -29,8 +29,8 @@
     background: radial-gradient(rgb(139, 195, 245), #1294b8); /* Fait un dégradé de couleur sur le fond */
     width: 100%;
     height: 100vh;  /* prend la taille d'un ecran */
-    display: flex;
-    flex-direction: column;
+    /* display: flex;
+    flex-direction: column; */
     padding: 0 2%; 
 }
 
@@ -39,7 +39,7 @@
 .headerContenair1 {   
     width: 100%;
     display: flex;
-    margin-top: 20px;
+    padding-top: 5%;
 }
 
 .entete {
@@ -90,7 +90,7 @@ a:hover {
 
 article {
     width: 100%;
-    height: 100%;  
+    height: 80%;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -102,7 +102,7 @@ article {
 .titreContenair1 {
    font-size: 4em;
     margin: 0;
-    width: 40%;
+    width: 30%;
     padding: auto;
 }
 
@@ -155,7 +155,7 @@ input[type="email"]:focus{ /* Selectionne l'input ayant pour attribut type="emai
 }
 
 object {
-    width: 60%;
+    width: 50%;
 }
 
 
@@ -174,6 +174,7 @@ object {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-top: 5%;
 }
 
 h2 {
@@ -241,6 +242,7 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-top: 5%;
 }
 
 /* ------------------------Seccion 3 ---------------- */
@@ -257,7 +259,8 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 0 30%;
+    padding: 0 25%;
+    padding-top: 5%;
 }
 
 .h2HeaderContenair3 {
@@ -267,10 +270,11 @@ main {
 }
 
 .pHeaderContenair3{
-    font-size: 25px;
+    font-size: 20px;
     width: 100%;
     text-align: center;
-    color: grey
+    color: grey;
+    padding-top: 20px;
 }
 
 /* -------------------- Main seccion 3 ----------------------- */
@@ -305,7 +309,7 @@ main {
 .figureContenair3 {
     margin: 0;
     border-radius: 100%;
-    overflow: hidden;  /* cache tous ce sort de la figure */
+    overflow: hidden; /* cache tous ce sort de la figure*/
     position: relative; /* Position par défaut dans le flux de la balise */
 } 
 
@@ -339,14 +343,14 @@ main {
     flex-direction: column;
     position: absolute; 
     bottom: 400px;
-    left: 0px;
+    left: -200px;
     transition: 2s;
-    opacity: 0;    
+    opacity: 1;    
 }
 
 .figureContenair3:hover .iconeContenair3{
     opacity: 1;
-    bottom: 80px;  /* Modifie la position des icones au survol de la souris */
+    bottom: 100px;  /* Modifie la position des icones au survol de la souris */
     left: 10px;
 }
 
@@ -544,18 +548,18 @@ main {
 }
 
 #h2Contenair5 {
-    width: 50%;
+    width: 40%;
 }
 
 .pContenair5 {
-    width: 50%;
+    width: 40%;
     color: grey;
     font-size: 20px;
 }
 
 #articleContenair5 {
     padding: 0;
-    width: 50%;
+    width: 40%;
     height: 30%;
     display: flex;
     flex-direction: row;
@@ -572,6 +576,10 @@ main {
 
 strong {
     color: black;
+}
+
+.formContenair5 {
+    width: 40%;
 }
 
 .buttonContenair5 {
@@ -591,7 +599,7 @@ strong {
 }
 
 .imgContenair5 {
-    width: 50%;
+    width: 30%;
 }
 
 /* ---------------------- PRICING ----------------------------- */
@@ -786,3 +794,10 @@ strong {
     margin: 15px;
 }
 
+/* ------------------------------ Mobile --------------------------------------------- */
+@media (max-width: 720px) {
+    * {
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+}
