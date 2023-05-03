@@ -343,4 +343,67 @@ main {
     width: 70%;
 }
 
+/* ---------------------- PRICING ----------------------------- */
+
+#pricing {
+    padding: 0;
+}
+
+/* ---------------------Header Pricing ------------------------- */
+
+#headerPricing {
+    text-align: center;
+    padding: 5% 20% 10% 20%;
+}
+
+#h2HeaderPricing {
+    font-size: 1em;
+}
+
+#pHeaderPricing {
+    font-size: 15px;
+}
+
+/* ------------------ main Pricing --------------------------- */
+
+.articlePricing, .article2Pricing {
+    width: 30%;
+    height: 70%;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.divArticlePricing {
+    height: 50px;
+    width: 40px;
+    font-size: 10px;
+}
+
+.h4Pricing{
+    font-size: 1em;
+}
+
+.pPricing {
+    font-size: 15px;
+}
+
+#iPricing {
+    font-size: 10px;
+}
+
+.pArticlePricing {
+    font-size: 15px;
+}
+
+.p2ArticlePricing {
+    font-size: 15px;
+}
+
+
+.buttonArticlePricing {
+    width: 80%;
+    height: 30px;
+    font-size: 20px;
+}
+
 }
