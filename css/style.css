@@ -39,6 +39,7 @@
 .headerContenair1 {   
     width: 100%;
     display: flex;
+    align-items: center;
     padding-top: 5%;
 }
 
@@ -53,17 +54,25 @@
 }
 
 nav {
-    width: 60%;
-    margin: auto;
-    padding: auto;
+    width: 100%;
+    /* margin: auto; */
     text-align: center;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
 
 .icones {
     width: 20%;
-    margin: auto;
-    padding: auto;
-    text-align: center;
+    /* margin: auto; */
+    padding-left: 15%;
+    /* text-align: center; */
+    display: flex;
+    flex-direction: row;
 }
 
 i {
@@ -795,84 +804,3 @@ strong {
 }
 
 
-/* ------------------Seccion burger menu ---------------------
-*/
-
-.headerBurger {
-    display: none;
-    position: fixed;
-    top : 0;
-    left: 0;
- }
-
- .headerBurger svg{
-   stroke: blue;
-   width: 40px;
-   height: 40px;
-   cursor: pointer;
- }
-
-.headerClose {
-    stroke: blue;
-    width: 22px;
-    height: 22px;
-    display: none;
-    cursor: pointer;
-}
-
-.overlayNavMobile {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100vh;
-    background-color: rgba(0, 0, 0, 0.6);
-    z-index: 2;
-    display: none;
-}
-
-
-
-
-
-/* ------------------------------ Mobile --------------------------------------------- */
-@media (max-width: 720px) {
-    .headerBurger {
-        display: block; 
-     }
-
-    .headerNav {
-        position: fixed;
-        top: 0;
-        right: 0;
-        width: 300px;
-        height: 100%;
-        background-color: #1294b8;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        transform: translateX(100%);
-        transition: 0.3s transform ease-in-out;
-        z-index: 3;
-    }
-
-    .headerNav.open { 
-        transform: initial; 
-    } 
-
-    ul {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .headerClose {
-        display: block;
-        position: absolute;
-        top: 16px;
-        right: 16px;
-    }
-
-    .overlayNavMobile.open {
-        display: block;
-    }
-}

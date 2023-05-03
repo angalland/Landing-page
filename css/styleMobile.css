@@ -1,0 +1,224 @@
+/* ------------------Seccion burger menu ---------------------
+*/
+
+.headerBurger {
+    display: none;
+    position: fixed;
+    top : 0;
+    left: 0;
+ }
+
+ .headerBurger svg{
+   stroke: blue;
+   width: 40px;
+   height: 40px;
+   cursor: pointer;
+ }
+
+.headerClose {
+    stroke: blue;
+    width: 22px;
+    height: 22px;
+    display: none;
+    cursor: pointer;
+}
+
+.overlayNavMobile {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 2;
+    display: none;
+}
+
+
+
+
+
+/* ------------------------------ Mobile --------------------------------------------- */
+@media (max-width: 720px) {
+
+    /* ------------------------ Burger Mobile ------------------------------- */
+    .headerBurger {
+        display: block; 
+        z-index: 3;
+     }
+
+    .headerNav {
+        position: fixed;
+        top: 0;
+        right: 0;
+        width: 300px;
+        height: 100%;
+        background-color: #1294b8;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transform: translateX(100%);
+        transition: 0.3s transform ease-in-out;
+        z-index: 3;
+    }
+
+    .headerNav.open { 
+        transform: initial; 
+    } 
+
+    ul {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .headerClose {
+        display: block;
+        position: absolute;
+        top: 16px;
+        right: 16px;
+    }
+
+    .overlayNavMobile.open {
+        display: block;
+    }
+
+    /* ---------------------------------- Seccion Body ------------------------ */
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Poppins', sans-serif;
+        position: relative;
+    }
+
+    /* ------------------- Seccion fleche ancre */
+
+    #fleche {
+    position: fixed;   
+    right: 20px;        
+    top:700px;
+    background-color: black;
+    color: white;
+    width: 75px;
+    height: 75px;
+    border-radius: 100%;
+    z-index: 1;        
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+    /* ------------------ section 1 ---------------------*/
+
+    #contenair1 {
+        background: radial-gradient(rgb(139, 195, 245), #1294b8); 
+        width: 100%;
+        height: 100vh;  
+        /* padding: 0 2%;  */
+    }
+    
+    /* ----------------- header seccion 1  ----------------------- */
+    
+    .headerContenair1 {   
+        width: 100%;
+        display: flex;
+        align-items: center;
+        /* padding-top: 5%; */
+    }
+    
+    .entete {
+        color: white;
+        width: 100%;
+        font-size: 50px;
+        font-weight: 1000;
+        margin-left: 20px;
+        padding: auto;
+        text-align: center;
+    }
+    
+
+    
+    .icones {
+        width: 20%;
+        display: flex;
+        flex-direction: column;
+        padding-left: 0;
+    }
+
+
+    /* ---------------------- Article Seccion 1----------------------*/
+
+    article {
+        width: 100%;
+        height: 80%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;      /* Fait un "espace" de 10px entre chaque bloc du display */
+        /* padding: 0 9%; */
+    }
+
+    .titreContenair1 {
+        font-size: 2em;
+        margin: 0;
+        width: 40%;
+        padding: auto;
+        }
+
+    .pContenair1 {
+        margin: 0;
+        font-size: 1em;
+        width: 40%;
+        margin : 15px;
+    }
+
+    .formContenair1 {
+        width: 40%;
+    }
+
+    input {
+        height: 50px;
+        width: 100%;
+        border-radius: 30px;
+        border: none;   
+    }
+
+    ::placeholder {   
+    padding: 10px;
+    color : black;
+    font-size: 20px;
+    opacity: 0.5;
+    }
+
+    input[type="email"]:focus{ 
+    font-size: 10px;
+    border: 0;
+    padding: 10px;
+    }
+
+    .buttonContenair1 {
+        background-color: #1294b8;
+        height: 40px;
+        width: 140px;
+        border-radius: 30px;
+        color: white;
+        position: absolute; /* Positionne le button hors du flux */
+        top: 5px;
+        right: 5px;
+        border: none;
+    }
+
+    .buttonContenair1:hover{
+        opacity: 0.8;
+        cursor: pointer;
+    }
+
+    object {
+    width: 50%;
+    }
+
+
+}

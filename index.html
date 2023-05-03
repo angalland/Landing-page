@@ -12,10 +12,11 @@
         <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
         <title>Landing page</title>
         <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/styleMobile.css">
     </head>
 
     <body>
-        <div class="overlayNavMobile" onclick="closeMenuMobile()"></div>
+        <div class="overlayNavMobile" onclick="closeMenuMobile()"></div> <!-- crée une ombre sur la plage quand on click sur le burger----------->
         <!-- ---------------------------------- Fleche ancre vers home ------------------------------------------------------------------------ -->
         <div id="fleche">
             <a href="#contenair1"><i class="fa-solid fa-arrow-up fa-2xl"></i></a>
@@ -41,6 +42,11 @@
                     <a href="#contenair3">ABOUT</a>
                     <a href="#blogContenair">BLOG</a>
                     <a href="">CONTATC</a>
+                    <div class="icones">
+                        <i class="fa-brands fa-facebook-f" style="color: #ffffff;"></i>
+                        <i class="fa-brands fa-twitter" style="color: #ffffff;"></i>
+                        <i class="fa-brands fa-instagram" style="color: #ffffff;"></i>
+                    </div>
                 </ul>
             </nav>
             <div class="headerBurger" onclick ="openMenuMobile()">
@@ -48,11 +54,11 @@
                     <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
                   </svg>
             </div>
-            <div class="icones">
+            <!-- <div class="icones">
                 <i class="fa-brands fa-facebook-f" style="color: #ffffff;"></i>
                 <i class="fa-brands fa-twitter" style="color: #ffffff;"></i>
                 <i class="fa-brands fa-instagram" style="color: #ffffff;"></i>
-            </div>
+            </div> -->
         </header>
         <script>
             function openMenuMobile(){
