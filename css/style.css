@@ -799,18 +799,21 @@ strong {
 */
 
 .headerBurger {
-    display: none; 
+    display: none;
+    position: fixed;
+    top : 0;
+    left: 0;
  }
 
  .headerBurger svg{
-   stroke: white;
-   width: 22px;
-   height: 22px;
+   stroke: blue;
+   width: 40px;
+   height: 40px;
    cursor: pointer;
  }
 
 .headerClose {
-    stroke: white;
+    stroke: blue;
     width: 22px;
     height: 22px;
     display: none;
@@ -849,13 +852,12 @@ strong {
         justify-content: center;
         align-items: center;
         transform: translateX(100%);
-        display: none;
-        transition: 0.3s transform ease-in-out; 
+        transition: 0.3s transform ease-in-out;
+        z-index: 3;
     }
 
     .headerNav.open { 
         transform: initial; 
-        display: flex;
     } 
 
     ul {
@@ -868,5 +870,9 @@ strong {
         position: absolute;
         top: 16px;
         right: 16px;
+    }
+
+    .overlayNavMobile.open {
+        display: block;
     }
 }
