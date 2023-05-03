@@ -266,7 +266,7 @@ main {
 
 /* ----------------------- HeaderBlog------------------- */
 .headerBlog {
-    padding: 10% 20% 10% 20%;
+    padding: 20% 20% 5% 20%;
 }
 
 #h2HeaderBlog {
@@ -278,6 +278,10 @@ main {
 }
 
 /* ---------------------Main blog ---------------------- */
+
+#mainBlog {
+    margin-top: 20%;
+}
 .articleBlog{
     width: 30%;
 }
@@ -298,6 +302,45 @@ main {
 
 .pArticleBlog {
     font-size: 15px; 
+}
+
+
+/* ------------------------------------- Seccion 5 ------------------------------ */
+
+#contenair5{
+    height: 70vh;
+    padding: 0 5%;
+}
+
+#h2Contenair5 {
+    width: 30%;
+}
+
+.pContenair5 {
+    width: 30%;
+    font-size: 15px;
+}
+
+#articleContenair5 {
+    width: 30%;
+    height: 20%;
+}
+
+.pArticleContenair5 {
+    font-size: 15px;
+}
+
+.formContenair5 {
+    width: 30%;
+}
+
+.buttonContenair5 {
+    height: 30px;
+    font-size: 15px;
+}
+
+.imgContenair5 {
+    width: 70%;
 }
 
 }
