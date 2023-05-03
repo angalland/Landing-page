@@ -166,13 +166,15 @@
         margin: 0;
         width: 40%;
         padding: auto;
-        }
+        text-align: center;
+    }
 
     .pContenair1 {
         margin: 0;
         font-size: 1em;
         width: 40%;
         margin : 15px;
+        text-align: justify;
     }
 
     .formContenair1 {
@@ -189,7 +191,7 @@
     ::placeholder {   
     padding: 10px;
     color : black;
-    font-size: 20px;
+    font-size: 10px;
     opacity: 0.5;
     }
 
@@ -202,7 +204,7 @@
     .buttonContenair1 {
         background-color: #1294b8;
         height: 40px;
-        width: 140px;
+        width: 100px;
         border-radius: 30px;
         color: white;
         position: absolute; /* Positionne le button hors du flux */
@@ -219,6 +221,90 @@
     object {
     width: 50%;
     }
+
+    /* ------------------ section 2 --------------------*/
+
+#contenair2 {
+    width: 100%;
+    height: 100vh;
+    /* padding: 0 9%; */
+}
+
+/* ------------------- header Seccion 2 ----------------------- */
+
+.headerContenair2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5%;
+}
+
+h2 {
+    font-size: 1em;
+    font-weight: 1000; 
+}
+
+.pHeaderContenair2{
+    font-size: 15px;
+    width: 40%;
+    text-align: center;
+    color: grey
+}
+
+/* -------------------- main Seccion 2 ------------------------ */
+
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap : 20px;
+    width: 100%;
+    margin-top: 5%;
+}
+
+.card {
+    background: radial-gradient(rgb(139, 195, 245), #1294b8);
+    width: 450px;
+    border-radius: 10px;
+    height: 350px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;   
+    font-size: 15px;
+    padding: 10px;
+    transition: 0.5s; 
+}
+
+.card:hover {
+    transform: translateY(-15px); 
+}
+
+.fa-solid {
+    font-size: 30px;
+}
+
+.fa-solid:hover {
+    cursor: auto; 
+    opacity: 1;  
+}
+
+.cardContenair2{
+    color: white;
+}
+
+.pContenair2 {
+    color: white;
+    text-align: center;
+}
+
+.footerContenair2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5%;
+}
 
 
 }
