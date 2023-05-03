@@ -9,14 +9,14 @@
  }
 
  .headerBurger svg{
-   stroke: blue;
+   stroke: hwb(223 12% 58%);
    width: 40px;
    height: 40px;
    cursor: pointer;
  }
 
 .headerClose {
-    stroke: blue;
+    stroke: hsl(223, 82%, 59%);
     width: 22px;
     height: 22px;
     display: none;
