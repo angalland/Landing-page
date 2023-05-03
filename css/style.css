@@ -68,9 +68,7 @@ ul {
 
 .icones {
     width: 20%;
-    /* margin: auto; */
     padding-left: 15%;
-    /* text-align: center; */
     display: flex;
     flex-direction: row;
 }
@@ -119,7 +117,6 @@ article {
     margin: 0;
     font-size: 1.5em;
     width: 40%;
-    margin : 15px;
 }
 
 .formContenair1 {
@@ -239,6 +236,7 @@ main {
 
 .cardContenair2{
     color: white;
+    text-align: center;
 }
 
 .pContenair2 {

@@ -53,7 +53,7 @@
         left: 0;
         width: 300px;
         height: 100%;
-        background-color: #1294b8;
+        background: radial-gradient(rgb(139, 195, 245), #1294b8);
         display: flex;
         justify-content: center;
         align-items: center;
@@ -82,139 +82,62 @@
         display: block;
     }
 
-    /* ---------------------------------- Seccion Body ------------------------ */
-
-    * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-        font-family: 'Poppins', sans-serif;
-        position: relative;
-    }
 
     /* ------------------- Seccion fleche ancre */
 
-    #fleche {
-    position: fixed;   
-    right: 20px;        
+    #fleche {      
     top:700px;
-    background-color: black;
-    color: white;
-    width: 75px;
-    height: 75px;
-    border-radius: 100%;
-    z-index: 1;        
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     }
 
     /* ------------------ section 1 ---------------------*/
 
     #contenair1 {
-        background: radial-gradient(rgb(139, 195, 245), #1294b8); 
-        width: 100%;
-        height: 100vh;  
-        /* padding: 0 2%;  */
+        padding: 0; 
     }
     
     /* ----------------- header seccion 1  ----------------------- */
     
-    .headerContenair1 {   
-        width: 100%;
-        display: flex;
-        align-items: center;
-        /* padding-top: 5%; */
-    }
-    
     .entete {
-        color: white;
         width: 100%;
-        font-size: 50px;
-        font-weight: 1000;
-        margin-left: 20px;
-        padding: auto;
-        text-align: center;
+        padding: 0;
     }
-    
-
-    
+       
     .icones {
-        width: 20%;
         display: flex;
         flex-direction: column;
         padding-left: 0;
     }
 
-
     /* ---------------------- Article Seccion 1----------------------*/
 
     article {
-        width: 100%;
-        height: 80%;
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        justify-content: center;
-        gap: 10px;      /* Fait un "espace" de 10px entre chaque bloc du display */
-        /* padding: 0 9%; */
+        padding: 0 5%;
     }
 
     .titreContenair1 {
         font-size: 2em;
-        margin: 0;
-        width: 40%;
-        padding: auto;
         text-align: start;
     }
 
     .pContenair1 {
-        margin: 0;
         font-size: 1em;
-        width: 40%;
         text-align: justify;
     }
 
     .formContenair1 {
-        width: 40%;
-    }
-
-    input {
-        height: 50px;
-        width: 100%;
-        border-radius: 30px;
-        border: none;   
+        margin-bottom: 5%;
     }
 
     ::placeholder {   
-    padding: 10px;
-    color : black;
     font-size: 12px;
-    opacity: 0.5;
     }
 
     input[type="email"]:focus{ 
     font-size: 10px;
-    border: 0;
-    padding: 10px;
     }
 
     .buttonContenair1 {
-        background-color: #1294b8;
-        height: 40px;
         width: 100px;
-        border-radius: 30px;
-        color: white;
-        position: absolute; /* Positionne le button hors du flux */
-        top: 5px;
-        right: 5px;
-        border: none;
-    }
-
-    .buttonContenair1:hover{
-        opacity: 0.8;
-        cursor: pointer;
     }
 
     object {
@@ -224,85 +147,41 @@
     /* ------------------ section 2 --------------------*/
 
 #contenair2 {
-    width: 100%;
-    height: 100vh;
-    /* padding: 0 9%; */
+    padding: 0 5%;
 }
 
 /* ------------------- header Seccion 2 ----------------------- */
 
-.headerContenair2 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-top: 5%;
-}
 
 h2 {
     font-size: 1em;
-    font-weight: 1000; 
 }
 
 .pHeaderContenair2{
-    font-size: 15px;
-    width: 40%;
-    text-align: center;
-    color: grey
+    font-size: 15px; 
 }
 
 /* -------------------- main Seccion 2 ------------------------ */
 
 main {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    gap : 20px;
-    width: 100%;
-    margin-top: 5%;
+    margin-top: 15%;
 }
 
 .card {
-    background: radial-gradient(rgb(139, 195, 245), #1294b8);
-    width: 450px;
-    border-radius: 10px;
-    height: 350px;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;   
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;   
-    font-size: 15px;
-    padding: 10px;
-    transition: 0.5s; 
-}
-
-.card:hover {
-    transform: translateY(-15px); 
+    height: 300px; 
 }
 
 .fa-solid {
-    font-size: 30px;
+    font-size: 40px;
 }
 
-.fa-solid:hover {
-    cursor: auto; 
-    opacity: 1;  
-}
-
-.cardContenair2{
-    color: white;
-}
 
 .pContenair2 {
-    color: white;
-    text-align: center;
+    font-size: 15px;
 }
 
 .footerContenair2 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-top: 5%;
+    padding-top: 15%;
 }
 
 
