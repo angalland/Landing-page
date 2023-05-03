@@ -315,7 +315,7 @@ main {
 .figureContenair3 {
     margin: 0;
     border-radius: 100%;
-    overflow: hidden; /*cache tous ce sort de la figure*/
+    overflow: hidden; /* cache tous ce sort de la figure */
     position: relative; /* Position par défaut dans le flux de la balise */
 } 
 
@@ -792,6 +792,7 @@ strong {
 #iconeFooter {
     display: flex;
     flex-direction: row;
+    justify-content: center;
     gap: 30px;
     width: 20%;
     margin: 25px;

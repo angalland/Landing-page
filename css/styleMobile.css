@@ -232,7 +232,7 @@ main {
     bottom: 300px;
 }
 
-.fa-brands {
+.ft {
     margin: 0;
 }
 
@@ -404,6 +404,12 @@ main {
     width: 80%;
     height: 30px;
     font-size: 20px;
+}
+
+/* ---------------------- Footer ------------------------ */
+
+#divFooter {
+    font-size: 15px;
 }
 
 }
