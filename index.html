@@ -15,6 +15,7 @@
     </head>
 
     <body>
+        <div class="overlayNavMobile"></div>
         <!-- ---------------------------------- Fleche ancre vers home ------------------------------------------------------------------------ -->
         <div id="fleche">
             <a href="#contenair1"><i class="fa-solid fa-arrow-up fa-2xl"></i></a>
@@ -25,7 +26,12 @@
             <div class="entete">
                 Kucra
             </div>
-            <nav>
+            <nav class="headerNav">
+                <div class="headerClose">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                     </svg>                      
+                </div>
                 <ul>
                     <a href="#contenair1">HOME</a>
                     <a href="#contenair2">FEATURES</a>
@@ -37,13 +43,22 @@
                     <a href="">CONTATC</a>
                 </ul>
             </nav>
+            <div class="headerBurger" onclick ="openMenuMobile()">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                  </svg>
+            </div>
             <div class="icones">
                 <i class="fa-brands fa-facebook-f" style="color: #ffffff;"></i>
                 <i class="fa-brands fa-twitter" style="color: #ffffff;"></i>
                 <i class="fa-brands fa-instagram" style="color: #ffffff;"></i>
             </div>
         </header>
-
+        <script>
+            function openMenuMobile(){
+                document.querySelector('.headerNav').classList.add('open');
+            }
+        </script>
             <article>
                 <h1 class="titreContenair1">We are StartUp Creative Kucra Agency</h1>
                 <p class="pContenair1">Carefully crafted after analysing the needs of different industries and the design achieves a great balance between purpose & presentation.</p>

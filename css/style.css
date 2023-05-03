@@ -26,7 +26,7 @@
 
 /* ------------------ section 1 ---------------------*/
 #contenair1 {
-    background: radial-gradient(rgb(139, 195, 245), #1294b8); /* Fait un dégradé de couleur sur le fond */
+    background: radial-gradient(rgb(139, 195, 245), #1294b8); /*Fait un dégradé de couleur sur le fond*/
     width: 100%;
     height: 100vh;  /* prend la taille d'un ecran */
     /* display: flex;
@@ -794,10 +794,79 @@ strong {
     margin: 15px;
 }
 
+
+/* ------------------Seccion burger menu ---------------------
+*/
+
+.headerBurger {
+    display: none; 
+ }
+
+ .headerBurger svg{
+   stroke: white;
+   width: 22px;
+   height: 22px;
+   cursor: pointer;
+ }
+
+.headerClose {
+    stroke: white;
+    width: 22px;
+    height: 22px;
+    display: none;
+    cursor: pointer;
+}
+
+.overlayNavMobile {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 2;
+    display: none;
+}
+
+
+
+
+
 /* ------------------------------ Mobile --------------------------------------------- */
 @media (max-width: 720px) {
-    * {
+    .headerBurger {
+        display: block; 
+     }
+
+    .headerNav {
+        position: fixed;
+        top: 0;
+        right: 0;
+        width: 300px;
+        height: 100%;
+        background-color: #1294b8;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transform: translateX(100%);
+        display: none;
+        transition: 0.3s transform ease-in-out; 
+    }
+
+    .headerNav.open { 
+        transform: initial; 
+        display: flex;
+    } 
+
+    ul {
+        display: flex;
         flex-direction: column;
-        flex-wrap: wrap;
+    }
+
+    .headerClose {
+        display: block;
+        position: absolute;
+        top: 16px;
+        right: 16px;
     }
 }
