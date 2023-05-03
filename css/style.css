@@ -290,7 +290,7 @@ main {
     justify-content: space-between;
     gap : none;
     width: 100%;
-    margin-top: 7%;
+    margin-top: 5%;
 }
 
 .article3 {
@@ -315,7 +315,7 @@ main {
 .figureContenair3 {
     margin: 0;
     border-radius: 100%;
-    overflow: hidden; /* cache tous ce sort de la figure*/
+    overflow: hidden; /*cache tous ce sort de la figure*/
     position: relative; /* Position par défaut dans le flux de la balise */
 } 
 
@@ -350,7 +350,7 @@ main {
     position: absolute; 
     bottom: 400px;
     left: -200px;
-    transition: 2s;
+    transition: 1s;
     opacity: 1;    
 }
 

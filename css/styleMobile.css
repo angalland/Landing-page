@@ -184,5 +184,60 @@ main {
     padding-top: 15%;
 }
 
+/* ------------------------Seccion 3 ---------------- */
 
+#contenair3 {
+    padding: 0 5%;
+}
+
+/* -------------------- header seccion 3 -------------------- */
+
+
+.h2HeaderContenair3 {
+    font-size: 1em;
+}
+
+.pHeaderContenair3{
+    font-size: 15px;
+}
+
+/* -------------------- Main seccion 3 ----------------------- */
+
+.articleContenair3 {
+    gap : 5px;
+    margin-top: 20%;
+}
+
+.article3 {
+    width: 25%;
+}
+
+.hArticleHeader3 {
+    font-size: 20px; 
+}
+
+.pArticleHeader3 {
+    font-size: 15px;
+}
+
+.h3Contenair3 {
+    font-size: 20px;
+}
+
+.pFigcaptionContenair3 {
+    font-size: 15px;
+}
+
+.iconeContenair3{
+    bottom: 300px;
+}
+
+.fa-brands {
+    margin: 0;
+}
+
+.figureContenair3:hover .iconeContenair3{
+    bottom: 50px;  
+    left: 5px;
+}
 }
