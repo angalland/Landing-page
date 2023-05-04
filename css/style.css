@@ -568,9 +568,10 @@ h2 {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    justify-content: center;
     height: 80%;
     padding-top: 15%;
-    gap: 10px;
+    gap: 20px;
 }
 
 #h2Contenair5 {

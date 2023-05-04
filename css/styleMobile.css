@@ -344,22 +344,19 @@ h2 {
 
 /* ------------------------------------- Seccion 5 ------------------------------ */
 
-#contenair5{
-    height: 70vh;
-    padding: 0 5%;
-}
+
 
 #h2Contenair5 {
-    width: 30%;
+    width: 50%;
 }
 
 .pContenair5 {
-    width: 30%;
+    width: 50%;
     font-size: 15px;
 }
 
 #articleContenair5 {
-    width: 30%;
+    width: 50%;
     height: 20%;
 }
 
@@ -368,7 +365,7 @@ h2 {
 }
 
 .formContenair5 {
-    width: 30%;
+    width: 50%;
 }
 
 .buttonContenair5 {
@@ -377,7 +374,7 @@ h2 {
 }
 
 .imgContenair5 {
-    width: 70%;
+    width: 50%;
 }
 
 /* ---------------------- PRICING ----------------------------- */
@@ -402,8 +399,11 @@ h2 {
 }
 
 /* ------------------ main Pricing --------------------------- */
+.mainPricing {
+    padding: 0 2%;
+}
 
-.articlePricing, .article2Pricing {
+.articlePricing {
     width: 30%;
     height: 70%;
     padding-left: 5px;
