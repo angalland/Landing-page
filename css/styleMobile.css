@@ -117,45 +117,49 @@
     /* ------------------- Seccion fleche ancre */
 
     #fleche {      
-    top:700px;
+    top:800px;
+    right: 60px;
     }
 
     /* ------------------ section 1 ---------------------*/
 
     #contenair1 {
-        padding: 0; 
+        padding: 0 2%; 
     }
     
     /* ----------------- header seccion 1  ----------------------- */
     
     .entete {
         width: 100%;
-        padding: 0;
     }
 
 
     /* ---------------------- Article Seccion 1----------------------*/
 
-    article {
+    #main-section1 {
         padding: 0 5%;
+        margin: 5% 0 0 0 ;
     }
 
     .titreContenair1 {
         font-size: 2em;
         text-align: start;
+        width: 100%;
     }
 
     .pContenair1 {
         font-size: 1em;
         text-align: justify;
+        width: 100%;
     }
 
     .formContenair1 {
         margin-bottom: 5%;
+        width: 100%;
     }
 
     ::placeholder {   
-    font-size: 12px;
+    font-size: 15px;
     }
 
     input[type="email"]:focus{ 
@@ -167,7 +171,7 @@
     }
 
     object {
-    width: 60%;
+    width: 100%;
     }
 
     /* ------------------ section 2 --------------------*/
@@ -189,7 +193,7 @@ h2 {
 
 /* -------------------- main Seccion 2 ------------------------ */
 
-main {
+#main-section2 {
     margin-top: 15%;
 }
 
@@ -218,6 +222,9 @@ main {
 
 /* -------------------- header seccion 3 -------------------- */
 
+.headerContenair3{
+    padding-bottom: 5%;
+}
 
 .h2HeaderContenair3 {
     font-size: 1em;
@@ -228,6 +235,10 @@ main {
 }
 
 /* -------------------- Main seccion 3 ----------------------- */
+
+#main-section3 {
+    gap: 5px;
+}
 
 .articleContenair3 {
     gap : 5px;
@@ -262,7 +273,7 @@ main {
     margin: 0;
 }
 
-.figureContenair3:hover .iconeContenair3{
+.figure-section3:hover .iconeContenair3{
     bottom: 50px;  
     left: 5px;
 }

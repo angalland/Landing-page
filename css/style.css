@@ -521,12 +521,12 @@ h2 {
     margin: 0;
 }
 
-.figureBlog:hover .imgBlog {
+.photo-section-blog:hover .imgBlog {
     filter: brightness(60%); /* Assombrit l'image */
     cursor: pointer;
 }
 
-.figureBlog:hover +.photographe {
+.photo-section-blog:hover:hover .photographe {
     opacity: 1;
 }
 
