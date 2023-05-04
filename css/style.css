@@ -646,10 +646,11 @@ strong {
     position: relative;
 }
 
-.articlePricing, .article2Pricing {
+.articlePricing {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    flex-wrap: wrap;
     align-items: center;
     width: 25%;
     height: 80%;
@@ -664,7 +665,7 @@ strong {
     transition: 0.5s;
 }
 
-.articlePricing:hover, .article2Pricing:hover {
+.articlePricing:hover {
     transform: translateY(-15px);
     cursor: pointer;
 }

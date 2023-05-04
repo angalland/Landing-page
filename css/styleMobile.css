@@ -1,14 +1,14 @@
 /* ------------------Seccion burger menu ---------------------
 */
 
-.headerBurger {
+#headerBurger {
     display: none;
     position: fixed;
     top : 0;
     left: 0;
  }
 
- .headerBurger svg{
+ #headerBurger svg{
    stroke: hwb(223 12% 58%);
    width: 40px;
    height: 40px;
@@ -23,7 +23,7 @@
     cursor: pointer;
 }
 
-.overlayNavMobile {
+#overlayNavMobile {
     position: fixed;
     top: 0;
     left: 0;
@@ -42,12 +42,12 @@
 @media (max-width: 720px) {
 
     /* ------------------------ Burger Mobile ------------------------------- */
-    .headerBurger {
+    #headerBurger {
         display: block; 
         z-index: 3;
      }
 
-    .headerNav {
+    #headerNav {
         position: fixed;
         top: 0;
         left: 0;
@@ -62,7 +62,7 @@
         z-index: 3;
     }
 
-    .headerNav.open { 
+    #headerNav.open { 
         transform: initial; 
     } 
 
@@ -78,7 +78,7 @@
         right: 16px;
     }
 
-    .overlayNavMobile.open {
+    #overlayNavMobile.open {
         display: block;
     }
 
