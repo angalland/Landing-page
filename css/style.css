@@ -287,7 +287,7 @@ h2 {
 
 /* -------------------- Main seccion 3 ----------------------- */
 
-.articleContenair3 {
+#main-section3 {
     display: flex;
     justify-content: space-between;
     gap : none;
@@ -300,6 +300,7 @@ h2 {
     height: 50%;
     padding: 0;
     gap: 0;
+    overflow: hidden;
 }
 
 .hArticleHeader3 {
@@ -317,7 +318,7 @@ h2 {
 .figureContenair3 {
     margin: 0;
     border-radius: 100%;
-    overflow: hidden; /* cache tous ce sort de la figure */
+    overflow: hidden;
     position: relative; /* Position par défaut dans le flux de la balise */
 } 
 
@@ -334,6 +335,20 @@ h2 {
     cursor: pointer; /* le curseur de la souris prendra la forme d'un pointeur */
 }
 
+.iconeContenair3{
+    display: flex;
+    flex-direction: column;
+    position: absolute; 
+    bottom: 500px;
+    left: -200px;
+    transition: 1s;
+}
+
+.figureContenair3:hover + .iconeContenair3{
+    bottom: 150px;  /* Modifie la position des icones au survol de la souris */
+    left: 10px;
+}
+
 .h3Contenair3 {
     text-align: center;
     margin: 0;
@@ -346,21 +361,6 @@ h2 {
     margin: 0;
 }
 
-.iconeContenair3{
-    display: flex;
-    flex-direction: column;
-    position: absolute; 
-    bottom: 400px;
-    left: -200px;
-    transition: 1s;
-    opacity: 1;    
-}
-
-.figureContenair3:hover .iconeContenair3{
-    opacity: 1;
-    bottom: 100px;  /* Modifie la position des icones au survol de la souris */
-    left: 10px;
-}
 
 
 /* ----------------------- Seccion 4 ------------------ */
@@ -382,7 +382,8 @@ h2 {
     align-items: center;
     justify-content: center;
     gap: none;
-    width: 100%; 
+    width: 100%;
+    height: 100%;
     padding: 0 9%;
 }
 
@@ -398,6 +399,7 @@ h2 {
     text-align: center;
     color: #D7D1CF;
     margin-bottom: 50px;
+    margin-top: 50px;
 }
 
 .formContenair4 {
@@ -460,6 +462,7 @@ h2 {
     gap : 70px;
     width: 100%;
     margin: 0;
+    margin-top: 5%;
 }
 
 .articleBlog {
@@ -518,7 +521,7 @@ h2 {
     cursor: pointer;
 }
 
-.figureBlog:hover .photographe {
+.figureBlog:hover +.photographe {
     opacity: 1;
 }
 
@@ -548,27 +551,36 @@ h2 {
 #contenair5{
     width: 100%;
     height: 100vh;
+    /* display: flex;
+    flex-direction: column;
+    flex-wrap: wrap; */
+    gap: 10px;
+    padding: 0 9%;
+    /* margin-top: 10%; */
+}
+
+#main-section5 {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    height: 80%;
+    padding-top: 15%;
     gap: 10px;
-    padding: 0 9%;
-    margin-top: 10%;
 }
 
 #h2Contenair5 {
-    width: 40%;
+    width: 50%;
 }
 
 .pContenair5 {
-    width: 40%;
+    width: 50%;
     color: grey;
     font-size: 20px;
 }
 
 #articleContenair5 {
     padding: 0;
-    width: 40%;
+    width: 50%;
     height: 30%;
     display: flex;
     flex-direction: row;
@@ -588,7 +600,7 @@ strong {
 }
 
 .formContenair5 {
-    width: 40%;
+    width: 50%;
 }
 
 .buttonContenair5 {
@@ -608,7 +620,7 @@ strong {
 }
 
 .imgContenair5 {
-    width: 60%;
+    width: 50%;
 }
 
 /* ---------------------- PRICING ----------------------------- */
@@ -646,6 +658,8 @@ strong {
     width: 100%;
     margin: 0;
     position: relative;
+    gap: 5%;
+    margin-top: 5%;
 }
 
 .articlePricing {
