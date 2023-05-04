@@ -20,6 +20,16 @@
 
     <body>
         <div id="overlayNavMobile"></div> <!-- crée une ombre sur la plage quand on click sur le burger----------->
+        <div id="headerBurger">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+            </svg>
+        </div> 
+        <div id="headerClose">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+            </svg> 
+        </div>                     
         <!-- ---------------------------------- Fleche ancre vers home ------------------------------------------------------------------------ -->
         <div id="fleche">
             <a href="#contenair1"><i class="fa-solid fa-arrow-up fa-2xl"></i></a>
@@ -30,7 +40,7 @@
                 <div class="entete">
                     Kucra
                 </div>
-                <nav id="headerNav">
+                <nav id="nav-section1">
                     <ul>
                         <li><a href="#contenair1">HOME</a></li>
                         <li><a href="#contenair2">FEATURES</a></li>
@@ -42,11 +52,12 @@
                         <li><a href="">CONTACT</a></li>
                     </ul>
                 </nav>
-                <div class="icones">
+                <div  class="icones">
                     <i class="fa-brands fa-facebook-f" style="color: #ffffff;"></i>
                     <i class="fa-brands fa-twitter" style="color: #ffffff;"></i>
                     <i class="fa-brands fa-instagram" style="color: #ffffff;"></i>
                 </div>
+
                 <div id="menu-burger">
                     <nav id="headerNav">
                         <ul>
@@ -60,20 +71,10 @@
                             <li><a href="">CONTACT</a></li>
                         </ul>
                     </nav>
-                    <div class="icones">
+                    <div id="icones-burger">
                         <i class="fa-brands fa-facebook-f" style="color: #ffffff;"></i>
                         <i class="fa-brands fa-twitter" style="color: #ffffff;"></i>
                         <i class="fa-brands fa-instagram" style="color: #ffffff;"></i>
-                    </div>
-                    <div class="headerClose">
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-                            <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
-                        </svg> 
-                    </div>                     
-                    <div id="headerBurger">
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-                            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
-                        </svg>
                     </div>
                 </div>
             </header>
@@ -125,13 +126,15 @@
                 <article class="article3">
                     <h2 class="hArticleHeader3">1499+</h2>
                     <p class="pArticleHeader3">Complete Projects</p>
-                    <figure class="figureContenair3">
-                        <img class="imgContenair3" src="img/person1.png" alt="photo de anna g.wilhite" />
-                    </figure>
-                    <div class="iconeContenair3">
-                        <i class="fa-brands fa-facebook ft"></i>
-                        <i class="fa-brands fa-twitter ft"></i>
-                        <i class="fa-brands fa-skype ft"></i>
+                    <div class="figure-section3">
+                        <figure class="figureContenair3">
+                            <img class="imgContenair3" src="img/person1.png" alt="photo de anna g.wilhite" />
+                        </figure>
+                        <div class="iconeContenair3">
+                            <i class="fa-brands fa-facebook ft"></i>
+                            <i class="fa-brands fa-twitter ft"></i>
+                            <i class="fa-brands fa-skype ft"></i>
+                        </div>
                     </div>
                     <h3 class="h3Contenair3">Anna G Wilhite</h3>
                     <p class="pFigcaptionContenair3"> CEO/Founder<p>
@@ -139,13 +142,15 @@
                 <article class="article3">
                     <h2 class="hArticleHeader3">1080K</h2>
                     <p class="pArticleHeader3">Satisfed Clients</p>
-                    <figure class="figureContenair3">
-                        <img class="imgContenair3" src="img/person2.png" alt="photo de William S Blay">
-                    </figure>
-                    <div class="iconeContenair3">
-                        <i class="fa-brands fa-facebook ft"></i>
-                        <i class="fa-brands fa-twitter ft"></i>
-                        <i class="fa-brands fa-skype ft"></i>
+                    <div class="figure-section3">
+                        <figure class="figureContenair3">
+                            <img class="imgContenair3" src="img/person2.png" alt="photo de William S Blay">
+                        </figure>
+                        <div class="iconeContenair3">
+                            <i class="fa-brands fa-facebook ft"></i>
+                            <i class="fa-brands fa-twitter ft"></i>
+                            <i class="fa-brands fa-skype ft"></i>
+                        </div>
                     </div>
                     <h3 class="h3Contenair3">William S.Blay</h3>
                     <p class="pFigcaptionContenair3">CIO/Co-founder</p>
@@ -153,13 +158,15 @@
                 <article class="article3">
                     <h2 class="hArticleHeader3">608</h2>
                     <p class="pArticleHeader3">Team Members</p>
-                    <figure class="figureContenair3">
-                        <img class="imgContenair3" src="img/person3.png" alt="photo de Maria B.Morales">
-                    </figure>
-                    <div class="iconeContenair3">
-                        <i class="fa-brands fa-facebook ft"></i>
-                        <i class="fa-brands fa-twitter ft"></i>
-                        <i class="fa-brands fa-skype ft"></i>
+                    <div class="figure-section3">
+                        <figure class="figureContenair3">
+                            <img class="imgContenair3" src="img/person3.png" alt="photo de Maria B.Morales">
+                        </figure>
+                        <div class="iconeContenair3">
+                            <i class="fa-brands fa-facebook ft"></i>
+                            <i class="fa-brands fa-twitter ft"></i>
+                            <i class="fa-brands fa-skype ft"></i>
+                        </div>
                     </div>
                     <h3 class="h3Contenair3">Maria B.Morales</h3>
                     <p class="pFigcaptionContenair3">Web Designer</p>
@@ -167,13 +174,15 @@
                 <article class="article3">
                     <h2 class="hArticleHeader3">252</h2>
                     <p class="pArticleHeader3">Employée</p>
-                    <figure class="figureContenair3">
-                        <img class="imgContenair3" src="img/person4.png" alt="photo de Luke L.Johnston">
-                    </figure>
-                    <div class="iconeContenair3">
-                        <i class="fa-brands fa-facebook ft"></i>
-                        <i class="fa-brands fa-twitter ft"></i>
-                        <i class="fa-brands fa-skype ft"></i>
+                    <div class="figure-section3">
+                        <figure class="figureContenair3">
+                            <img class="imgContenair3" src="img/person4.png" alt="photo de Luke L.Johnston">
+                        </figure>
+                        <div class="iconeContenair3">
+                            <i class="fa-brands fa-facebook ft"></i>
+                            <i class="fa-brands fa-twitter ft"></i>
+                            <i class="fa-brands fa-skype ft"></i>
+                        </div>
                     </div>
                     <h3 class="h3Contenair3">Luke L.Johnston</h3>
                     <p class="pFigcaptionContenair3">Web developer</p>

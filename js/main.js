@@ -1,12 +1,14 @@
 
 function openMenuMobile(){
-    document.getElementById('headerNav').classList.add('open');
-    document.getElementById('overlayNavMobile').classList.add('open')
+    document.getElementById('menu-burger').classList.add('open');
+    document.getElementById('overlayNavMobile').classList.add('open');
+    document.getElementById('headerClose').classList.add('open');
 }
 
 function closeMenuMobile(){
-    document.getElementById('headerNav').classList.remove('open');
+    document.getElementById('menu-burger').classList.remove('open');
     document.getElementById('overlayNavMobile').classList.remove('open');
+    document.getElementById('headerClose').classList.remove('open');
 }
 
 
@@ -15,5 +17,5 @@ function closeMenuMobile(){
 // });
 
 document.getElementById("overlayNavMobile").addEventListener("click", closeMenuMobile);
-document.getElementById("headerNav").addEventListener("click", closeMenuMobile);
 document.getElementById("headerBurger").addEventListener("click", openMenuMobile);
+document.getElementById("headerClose").addEventListener("click",closeMenuMobile);

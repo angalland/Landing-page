@@ -1,6 +1,5 @@
 * {
     margin: 0;
-    padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
     position: relative;
@@ -25,13 +24,14 @@
 }
 
 /* ------------------ section 1 ---------------------*/
-#contenair1 {
-    background: radial-gradient(rgb(139, 195, 245), #1294b8); /*Fait un dégradé de couleur sur le fond*/
+section {
     width: 100%;
     height: 100vh;  /* prend la taille d'un ecran */
-    /* display: flex;
-    flex-direction: column; */
     padding: 0 9%; 
+}
+
+#contenair1 {
+    background: radial-gradient(rgb(139, 195, 245), #1294b8);
 }
 
 /* ----------------- header seccion 1  ----------------------- */
@@ -48,13 +48,11 @@
     width: 20%;
     font-size: 50px;
     font-weight: 1000;
-    padding: auto;
     text-align: center;
 }
 
-nav {
+#nav-section1 {
     width: 100%;
-    text-align: center;
 }
 
 ul {
@@ -63,6 +61,7 @@ ul {
     align-items: center;
     justify-content: center;
     list-style: none;
+    padding: 0;
 }
 
 .icones {
@@ -169,11 +168,8 @@ object {
 
 
 /* ------------------ section 2 --------------------*/
-
 #contenair2 {
-    width: 100%;
-    height: 100vh;
-    padding: 0 9%;
+    background-color: white;
 }
 
 /* ------------------- header Seccion 2 ----------------------- */
@@ -300,7 +296,6 @@ h2 {
     height: 50%;
     padding: 0;
     gap: 0;
-    overflow: hidden;
 }
 
 .hArticleHeader3 {
@@ -315,38 +310,48 @@ h2 {
     margin-bottom: 20%; 
 }
 
-.figureContenair3 {
+.figure-section3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     margin: 0;
+    padding: 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.figureContenair3 {
     border-radius: 100%;
     overflow: hidden;
-    position: relative; /* Position par défaut dans le flux de la balise */
 } 
 
 .imgContenair3 {
     width: 100%;
     height: 100%;
     filter: grayscale(1); /* assombrit l'image */
-    transition: transform .3s; 
-}
-
-.figureContenair3:hover .imgContenair3 {
-    filter: grayscale(0); /* n'assombrit plus l'image */
-    transform: scale(1.25); /* fait un effet de zoom */
-    cursor: pointer; /* le curseur de la souris prendra la forme d'un pointeur */
+    transition: transform .3s;
 }
 
 .iconeContenair3{
     display: flex;
     flex-direction: column;
     position: absolute; 
-    bottom: 500px;
-    left: -200px;
+    bottom: 300px;
+    left: -100px;
     transition: 1s;
 }
 
-.figureContenair3:hover + .iconeContenair3{
-    bottom: 150px;  /* Modifie la position des icones au survol de la souris */
-    left: 10px;
+.figure-section3:hover .imgContenair3 {
+    filter: grayscale(0); /* n'assombrit plus l'image */
+    transform: scale(1.25); /* fait un effet de zoom */
+    cursor: pointer; /* le curseur de la souris prendra la forme d'un pointeur */
+}
+
+
+.figure-section3:hover .iconeContenair3{
+    bottom: 100px;  /* Modifie la position des icones au survol de la souris */
+    left: 5px;
 }
 
 .h3Contenair3 {
