@@ -51,7 +51,7 @@
 
 
 /* ------------------------------ Mobile --------------------------------------------- */
-@media (max-width: 720px) {
+@media (max-width: 1068px) {
 
     /* ------------------------ Burger Mobile ------------------------------- */
     #nav-section1 {
@@ -95,6 +95,10 @@
         flex-direction: column;
     }
 
+    li {
+        margin: 5% 0;
+    }
+
     #icones-burger {
     display: flex;
     flex-direction: column;
@@ -124,7 +128,10 @@
     /* ------------------ section 1 ---------------------*/
 
     #contenair1 {
-        padding: 0 2%; 
+        padding: 0 2%;
+        min-height: 50vh;
+        height: none;
+
     }
     
     /* ----------------- header seccion 1  ----------------------- */

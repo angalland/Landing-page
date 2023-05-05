@@ -26,12 +26,13 @@
 /* ------------------ section 1 ---------------------*/
 section {
     width: 100%;
-    height: 100vh;  /* prend la taille d'un ecran */
+    min-height: 50vh;  /* prend la taille d'un ecran */
     padding: 0 9%; 
 }
 
 #contenair1 {
     background: radial-gradient(rgb(139, 195, 245), #1294b8);
+    /* height: 100vh; */
 }
 
 /* ----------------- header seccion 1  ----------------------- */
@@ -99,7 +100,7 @@ a:hover {
 
 #main-section1 {
     width: 100%;
-    height: 80%;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -162,7 +163,7 @@ input[type="email"]:focus{ /* Selectionne l'input ayant pour attribut type="emai
 }
 
 object {
-    width: 50%;
+    width: 60%;
 }
 
 
