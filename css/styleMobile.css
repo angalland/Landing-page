@@ -51,7 +51,7 @@
 
 
 /* ------------------------------ Mobile --------------------------------------------- */
-@media (max-width: 1068px) {
+@media (max-width: 1250px) {
 
     /* ------------------------ Burger Mobile ------------------------------- */
     #nav-section1 {
@@ -122,7 +122,7 @@
 
     #fleche {      
     top:800px;
-    right: 60px;
+    right: 20px;
     }
 
     /* ------------------ section 1 ---------------------*/
@@ -193,8 +193,7 @@
 }
 
  .card {
-    height: 300px;
-    min-width: 20%;
+    min-width: 50%;
 }
 
 .footerContenair2 {
@@ -272,7 +271,9 @@
 
 /* ------------------------------------- Seccion 5 ------------------------------ */
 
-
+#main-section5 {
+    height: none;
+}
 
 #h2Contenair5 {
     width: 50%;
@@ -302,74 +303,24 @@
 
 /* ---------------------- PRICING ----------------------------- */
 
-#pricing {
-    padding: 0;
-}
-
-/* ---------------------Header Pricing ------------------------- */
-
-#headerPricing {
-    text-align: center;
-    padding: 5% 20% 10% 20%;
-}
-
-#h2HeaderPricing {
-    font-size: 1em;
-}
-
-#pHeaderPricing {
-    font-size: 15px;
-}
-
 /* ------------------ main Pricing --------------------------- */
 .mainPricing {
-    padding: 0 2%;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+
 }
 
 .articlePricing {
-    width: 30%;
-    height: 70%;
-    padding-left: 5px;
-    padding-right: 5px;
+    width: 80%;
 }
 
-.divArticlePricing {
-    height: 50px;
-    width: 40px;
-    font-size: 10px;
+.article2Pricing {
+    top:0;
 }
-
-.h4Pricing{
-    font-size: 1em;
-}
-
-.pPricing {
-    font-size: 15px;
-}
-
-#iPricing {
-    font-size: 10px;
-}
-
-.pArticlePricing {
-    font-size: 15px;
-}
-
-.p2ArticlePricing {
-    font-size: 15px;
-}
-
 
 .buttonArticlePricing {
-    width: 80%;
-    height: 30px;
-    font-size: 20px;
-}
-
-/* ---------------------- Footer ------------------------ */
-
-#divFooter {
-    font-size: 15px;
-}
+    width: 50%;
+} 
 
 }
