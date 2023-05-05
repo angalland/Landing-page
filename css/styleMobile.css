@@ -136,7 +136,7 @@
     /* ----------------- header seccion 1  ----------------------- */
     
     .entete {
-        width: 100%;
+        min-width: 100%;
         margin-bottom: 10%;
     }
 
@@ -230,6 +230,9 @@
     width: 50%;
 }
 
+.figure-section3:hover .iconeContenair3{
+    left: 5%;
+}
 
 /* ------------------------Blog ----------------------- */
 
@@ -260,21 +263,23 @@
 
 /* ------------------------------------- Seccion 5 ------------------------------ */
 
+
 #main-section5 {
-    height: none;
+    align-items: center;
+    flex-wrap: nowrap;
+    height: 150vh;
 }
 
 #h2Contenair5 {
-    width: 50%;
+    width: 100%;
 }
 
 .pContenair5 {
-    width: 50%;
+    width: 100%;
 }
 
 #articleContenair5 {
-    width: 50%;
-    height: 20%;
+    width: 100%;
 }
 
 
@@ -282,12 +287,8 @@
     width: 50%;
 }
 
-.buttonContenair5 {
-    height: 30px;
-}
-
-.imgContenair5 {
-    width: 50%;
+#figure-section5 {
+    width: 100%;
 }
 
 /* ---------------------- PRICING ----------------------------- */
@@ -301,7 +302,7 @@
 }
 
 .articlePricing {
-    width: 80%;
+    width: 100%;
 }
 
 .article2Pricing {
