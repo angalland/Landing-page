@@ -147,6 +147,7 @@
         padding: 0 5%;
         margin: 5% 0 0 0 ;
         justify-content: flex-start;
+        flex-wrap: nowrap;
     }
 
     .titreContenair1 {
