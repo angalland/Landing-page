@@ -12,7 +12,7 @@
  }
 
 #headerClose {
-    position: absolute;
+    position: fixed;
     top: 16px;
     right: 16px;
     z-index: 4;
@@ -128,7 +128,6 @@
     /* ------------------ section 1 ---------------------*/
 
     #contenair1 {
-        padding: 0 2%;
         min-height: 50vh;
         height: none;
 
@@ -138,6 +137,7 @@
     
     .entete {
         width: 100%;
+        margin-bottom: 10%;
     }
 
 
@@ -146,6 +146,7 @@
     #main-section1 {
         padding: 0 5%;
         margin: 5% 0 0 0 ;
+        justify-content: flex-start;
     }
 
     .titreContenair1 {
@@ -183,38 +184,17 @@
 
     /* ------------------ section 2 --------------------*/
 
-#contenair2 {
-    padding: 0 5%;
-}
-
-/* ------------------- header Seccion 2 ----------------------- */
-
-
-h2 {
-    font-size: 1em;
-}
-
-.pHeaderContenair2{
-    font-size: 15px; 
-}
-
 /* -------------------- main Seccion 2 ------------------------ */
 
 #main-section2 {
     margin-top: 15%;
+    flex-direction: column;
+    align-items: center;
 }
 
-.card {
-    height: 300px; 
-}
-
-.fa-solid {
-    font-size: 40px;
-}
-
-
-.pContenair2 {
-    font-size: 15px;
+ .card {
+    height: 300px;
+    min-width: 20%;
 }
 
 .footerContenair2 {
@@ -224,7 +204,7 @@ h2 {
 /* ------------------------Seccion 3 ---------------- */
 
 #contenair3 {
-    padding: 0 5%;
+    min-height: 50vh;
 }
 
 /* -------------------- header seccion 3 -------------------- */
@@ -233,18 +213,13 @@ h2 {
     padding-bottom: 5%;
 }
 
-.h2HeaderContenair3 {
-    font-size: 1em;
-}
-
-.pHeaderContenair3{
-    font-size: 15px;
-}
 
 /* -------------------- Main seccion 3 ----------------------- */
 
 #main-section3 {
     gap: 5px;
+    flex-direction: column;
+    align-items: center;
 }
 
 .articleContenair3 {
@@ -253,101 +228,47 @@ h2 {
 }
 
 .article3 {
-    width: 25%;
+    width: 50%;
 }
 
-.hArticleHeader3 {
-    font-size: 20px; 
-}
-
-.pArticleHeader3 {
-    font-size: 15px;
-}
-
-.h3Contenair3 {
-    font-size: 20px;
-}
-
-.pFigcaptionContenair3 {
-    font-size: 15px;
-}
 
 .iconeContenair3{
     bottom: 300px;
 }
 
-.ft {
-    margin: 0;
-}
 
 .figure-section3:hover .iconeContenair3{
-    bottom: 50px;  
+    bottom: 60px;  
     left: 5px;
-}
-
-/* ----------------------- Seccion 4 ------------------ */
-
-
-.articleContenair4 {
-    height: 100%;
-}
-
-.hContenair4 {
-    font-size: 1em;
-}
-
-.pContenair4 {
-    font-size: 15px;
-    margin-top: 50px;
-    margin-bottom: 50px;
 }
 
 
 /* ------------------------Blog ----------------------- */
-#blogContenair{
-    padding: 0 5%;
-}
 
 /* ----------------------- HeaderBlog------------------- */
 .headerBlog {
     padding: 20% 20% 5% 20%;
 }
 
-#h2HeaderBlog {
-    font-size: 1em;
-}
-
-#pHeaderBlog {
-    font-size: 15px;
-}
-
 /* ---------------------Main blog ---------------------- */
 
 #mainBlog {
     margin-top: 20%;
+    flex-direction: column;
+    align-items: center;
 }
 .articleBlog{
-    width: 30%;
+    width: 100%;
 }
 
 .iPhotographe {
     width: 80%;
-    font-size: 15px;
 }
 
-.pPhotographe {
-    font-size: 15px;
+.photographe {
+    flex-direction: column;
+    align-items: flex-start;
 }
-
-
-.h3ArticleBlog {
-    font-size: 20px;
-}
-
-.pArticleBlog {
-    font-size: 15px; 
-}
-
 
 /* ------------------------------------- Seccion 5 ------------------------------ */
 
@@ -359,7 +280,6 @@ h2 {
 
 .pContenair5 {
     width: 50%;
-    font-size: 15px;
 }
 
 #articleContenair5 {
@@ -367,9 +287,6 @@ h2 {
     height: 20%;
 }
 
-.pArticleContenair5 {
-    font-size: 15px;
-}
 
 .formContenair5 {
     width: 50%;
@@ -377,7 +294,6 @@ h2 {
 
 .buttonContenair5 {
     height: 30px;
-    font-size: 15px;
 }
 
 .imgContenair5 {

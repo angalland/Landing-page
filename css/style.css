@@ -25,7 +25,7 @@
 
 /* ------------------ section 1 ---------------------*/
 section {
-    width: 100%;
+    min-width: 100%;
     min-height: 50vh;  /* prend la taille d'un ecran */
     padding: 0 9%; 
 }
@@ -207,9 +207,9 @@ h2 {
 
 .card {
     background: radial-gradient(rgb(139, 195, 245), #1294b8);
-    width: 30%;
+    min-width: 30%;
     border-radius: 10px;
-    height: 350px;
+    min-height: 350px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;   /* fait un effet d'ombre sur .card */
     display: flex;
     flex-direction: column;
@@ -254,7 +254,7 @@ h2 {
 
 #contenair3 {
     width: 100%;
-    height: 100vh;
+    /* height: 100vh; */
     padding: 0 9%;
 }
 
@@ -290,6 +290,7 @@ h2 {
     gap : none;
     width: 100%;
     margin-top: 5%;
+    margin-bottom: 5%;
 }
 
 .article3 {
@@ -373,7 +374,6 @@ h2 {
 
 #contenair4 {
     width: 100%;
-    height: 50vh;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url("../img/parallax.png"); /* assombrit l'arriere plan, ajoute une image en arrière plan */  
     background-attachment: fixed; /* La position de l'image est fixe lors du srcoll */
     background-size: cover; /* l'image prend l'espace disponible */
@@ -388,9 +388,7 @@ h2 {
     align-items: center;
     justify-content: center;
     gap: none;
-    width: 100%;
-    height: 100%;
-    padding: 0 9%;
+    padding: 10%;
 }
 
 .hContenair4 {
@@ -398,6 +396,7 @@ h2 {
     font-weight: 1000;
     color: white;
     margin: 0;
+    text-align: center;
 }
 
 .pContenair4 {
@@ -440,7 +439,6 @@ h2 {
 /* ------------------------Blog ----------------------- */
 #blogContenair{
     width: 100%;
-    height: 100vh;
     padding: 0 9%;
 }
 
@@ -469,13 +467,13 @@ h2 {
     width: 100%;
     margin: 0;
     margin-top: 5%;
+    margin-bottom: 5%;
 }
 
 .articleBlog {
     display: flex;
     flex-direction: column;
     padding: 0;
-    width: 25%;
 }
 
 .figureBlog {
