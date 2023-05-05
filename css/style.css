@@ -351,8 +351,8 @@ h2 {
 
 
 .figure-section3:hover .iconeContenair3{
-    bottom: 100px;  /* Modifie la position des icones au survol de la souris */
-    left: 5px;
+    bottom: 30%;  /* Modifie la position des icones au survol de la souris */
+    left: 5%;
 }
 
 .h3Contenair3 {

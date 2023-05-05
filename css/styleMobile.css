@@ -74,7 +74,7 @@
         position: fixed;
         top: 0;
         left: 0;
-        width: 300px;
+        width: 50%;
         height: 100%;
         background: radial-gradient(rgb(139, 195, 245), #1294b8);
         display: flex;
@@ -228,17 +228,6 @@
 
 .article3 {
     width: 50%;
-}
-
-
-.iconeContenair3{
-    bottom: 300px;
-}
-
-
-.figure-section3:hover .iconeContenair3{
-    bottom: 60px;  
-    left: 5px;
 }
 
 
